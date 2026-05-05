@@ -17,30 +17,23 @@ public class Main {
         affectation.ajouterEmployeDepartement(e2, d2);
         affectation.ajouterEmployeDepartement(e3, d3);
 
-        System.out.println("\n=== affichage des affectations ===");
+        System.out.println("\n=== affichage ===");
         affectation.afficherEmployesEtDepartements();
 
         System.out.println("\n=== tentative doublon ===");
         affectation.ajouterEmployeDepartement(e1, d3);
 
-        System.out.println("\n=== liste des employes ===");
+        System.out.println("\n=== employes ===");
         affectation.afficherEmployes();
 
-        System.out.println("\n=== liste des departements ===");
+        System.out.println("\n=== departements ===");
         affectation.afficherDepartements();
 
-        System.out.println("\n=== recherche employe e2 ===");
+        System.out.println("\n=== recherche e2 ===");
         System.out.println(affectation.rechercherEmploye(e2));
 
-        System.out.println("\n=== recherche departement d3 ===");
-        System.out.println(affectation.rechercherDepartement(d3));
-
-        System.out.println("\n=== suppression employe e2 ===");
+        System.out.println("\n=== suppression e2 ===");
         affectation.supprimerEmploye(e2);
-        affectation.afficherEmployesEtDepartements();
-
-        System.out.println("\n=== suppression affectation e3 - Finance ===");
-        affectation.supprimerEmployeEtDepartement(e3, d3);
         affectation.afficherEmployesEtDepartements();
 
         System.out.println("\n=== tri par id ===");

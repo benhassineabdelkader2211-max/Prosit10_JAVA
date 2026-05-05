@@ -6,7 +6,7 @@ public class AffectationHashMap {
 
     public void ajouterEmployeDepartement(Employe e, Departement d) {
         if (map.containsKey(e)) {
-            System.out.println("Employe " + e.getNom() + " est deja affecte a un departement !");
+            System.out.println("Employe " + e.getNom() + " est deja affecte !");
         } else {
             map.put(e, d);
         }
