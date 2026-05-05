@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DepartementHashSet implements IDepartement<Departement> {
+public class DepartementHashSet {
 
     private HashSet<Departement> hashSet = new HashSet<>();
 
